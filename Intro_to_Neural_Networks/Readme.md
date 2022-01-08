@@ -1,4 +1,5 @@
-# Data: graduate school admissions data (found at http://www.ats.ucla.edu/stat/data/binary.csv) 
+# Data: graduate school admissions data 
+(found at http://www.ats.ucla.edu/stat/data/binary.csv) 
 This dataset contains three input features: GRE score, GPA, and undergraduate school rank (numbered 1 through 4).
 Institutions with a rank of one have the highest prestige, while those with a rank of four have the lowest.
 
@@ -27,3 +28,16 @@ The output error: error.
 The error term: error_term.
 Update the weight step: del_w +=.
 Update the weights: weights +=.
+
+
+
+
+
+
+
+
+
+
+
+
+
