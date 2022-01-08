@@ -44,8 +44,11 @@ for e in range(epochs):
         #   sigmoid_prime function. This just makes it faster because we
         #   can re-use the result of the sigmoid function stored in
         #   the output variable
+        
+       #error_term = error * f'(h)
+       #f'(h) = f(h) * (1 - f(h)) so, 
         error_term = error * output * (1 - output)
-
+        
         # The gradient descent step, the error times the gradient times the inputs
         del_w += error_term * x
 
