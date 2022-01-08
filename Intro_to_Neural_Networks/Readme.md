@@ -23,10 +23,15 @@ Because the GRE and GPA values are fairly large, we must be extremely cautious a
 
 You need to implement:
 
-The network output: output.
+
+The network output: output. 
+
 The output error: error.
+
 The error term: error_term.
+
 Update the weight step: del_w +=.
+
 Update the weights: weights +=.
 
 
