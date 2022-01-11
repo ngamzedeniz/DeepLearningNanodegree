@@ -111,7 +111,14 @@ Now you should create your network and train it. First you'll want to define the
 - Part 6 includes how to save trained model 
 - In general, you won't want to train a model everytime you need it. Instead, you'll train once, save it, then load the model when you want to train more or use if for inference
 
+# Part 7 
 
+- Part 7 includes loading Image Data
+1. Transforms
+2. Data Loader
+
+
+# Part  8
 
 
 
