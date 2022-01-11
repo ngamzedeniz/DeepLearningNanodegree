@@ -96,8 +96,20 @@ Now you should create your network and train it. First you'll want to define the
 
 
 # Part 5 
-- Part 5 includes 
+- Part 5 includes Inference and Validation
+- Inference is a term that refers to a trained network that is ready for making predictions 
 - Highlighted methods for this part:
+1. Trained model can fail on unseen data, while its pretty good on trained data, this is called overfitting and in order to i. measure and ii. avoid overfitting:
+   1. Validation set is used to measure the performance of the data which is does not exist on trained data
+   2. Regularization such as dropout is used to avoid overfitting while monitoring the validation performance during training, Adding dropout in PyTorch is straightforward using the nn.Dropout module.
+2. During training we want to use dropout to prevent overfitting, but during inference we want to use the entire network. So, we need to turn off dropout during validation, testing, and whenever we're using the network to make predictions. To do this, you use model.eval(). This sets the model to evaluation mode where the dropout probability is 0. You can turn dropout back on by setting the model to train mode with model.train(). 
+
+![image](https://user-images.githubusercontent.com/92583544/148950774-f1587c02-04a5-42f8-8012-bbfffdb22b54.png)
+
+
+# Part 6 
+- Part 6 includes how to save trained model 
+- In general, you won't want to train a model everytime you need it. Instead, you'll train once, save it, then load the model when you want to train more or use if for inference
 
 
 
