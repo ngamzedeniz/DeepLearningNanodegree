@@ -7,4 +7,6 @@
 
 - Define and train a DCGAN on a dataset of faces
 - Data:  using the CelebFaces Attributes Dataset (CelebA) to train adversarial networks.
+- Sample Results
+
   ![image](https://user-images.githubusercontent.com/92583544/149327107-c7bf1942-5648-4f84-9c01-7d40343cb907.png)
